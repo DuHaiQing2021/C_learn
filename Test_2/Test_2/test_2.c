@@ -1,6 +1,18 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-                          
+
+int main()
+
+{
+    int a, b, max = 0;
+    printf("输入：");
+    scanf("%d %d", &a, &b);
+    max = a > b ? a : b;
+    printf("输出较大值%d", max);
+
+    return 0;
+
+}
                                /***运算符****/
 
 /*“/”和“%”运算符的运用*/
