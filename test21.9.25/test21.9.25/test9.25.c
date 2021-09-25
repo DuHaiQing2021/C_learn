@@ -12,13 +12,13 @@ void game()
 	board(mine, ROWS, COLS,'0');
 	board(show, ROWS, COLS,'*');
 	//展示面板
-	Displayboard(mine, ROW, COL);
+	//Displayboard(mine, ROW, COL);
 	Displayboard(show, ROW, COL);
 	//布置雷
 	Setmine(mine, ROW, COL);
 	Displayboard(mine, ROW, COL);
 	//排雷
-	Finemine(show, mine, ROW, COL);
+	Findmine(show, mine, ROW, COL);
 }
 
 menu()

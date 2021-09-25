@@ -26,4 +26,10 @@ void Displayboard(char board[ROWS][COLS], int row, int col);
 void Setmine(char mine[ROWS][COLS], int row, int col);
 
 //排雷
-void Finemine(char show[ROWS][COLS], char mine[ROWS][COLS], int row, int col);
+void Findmine(char show[ROWS][COLS], char mine[ROWS][COLS], int row, int col);
+
+//周围雷的个数
+int Roundmine(char mine[ROWS][COLS], int x, int y);
+
+//判断雷
+int Ismine(char show[ROWS][COLS], int row, int col);
